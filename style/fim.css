@@ -1,0 +1,138 @@
+.finish {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 22vh;
+  
+}
+
+.footer {
+  display: flex;
+  margin-top: 4vh;
+  padding-left: 4vh;
+  
+  
+}
+.duvidas-sobre {
+  margin-top: 4vh;
+}
+
+
+.contato {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.title-irm {
+  margin-top: 1.5vh;
+  font-weight: 1000;
+  font-size: 24px;
+  
+}
+
+.contato-sac {
+  
+  font-size: 18px;
+}
+
+.email-span, .whats-span {
+  margin-top: 1vh;
+  font-size: 20px; 
+
+
+}
+.quebra-do-meio {
+  margin-top: 4vh;
+}
+.ema-wha {
+  font-weight: 700;
+}
+
+.footer-titulo {
+  font-size: 28px;
+  
+
+}
+.footer-palavras {
+  margin-top: 2%;
+  color: silver;
+  font-size: 18px;
+}
+
+.contato-email {
+  margin-top: 2vh;
+  font-family: var(--fonte-principal);
+  background-color: var(--branco);
+  padding: 1em;
+  border: 1px solid var(--azul);
+  border-radius: 24px;
+  width: 70%;
+  color: blue;
+  font-size: 14px;
+}
+
+.footer-principal {
+  padding-left: 6vh;
+}
+
+.contato-email::placeholder {
+  font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("/img/Email.svg") no-repeat;
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 720px) {
+  .rodape, .duvidas, .entrega , .politicas-compras, .politicas-privacidade, .politicas-reembolso, .termos {
+    margin-top: 1.5vh;
+}
+}
+
+@media screen and (max-width: 470px) {
+.contato-email {
+  width: 70%;
+}  
+
+.footer-palavras {
+  margin-top: 6vh;
+}
+.contato-email::placeholder {
+  display: none;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .footer-titulo {
+    display: none;
+  }
+  .contato-sac {
+    display: none;
+  }
+  .contato {
+    margin-top: 0;
+}
+.footer-principal {
+  margin-top: 0;
+}
+
+.title-irm {
+  font-size: 18px;
+}
+
+.ema-wha {
+  font-size: 14px;
+}
+
+.email-span, .whats-span {
+  font-size: 14px;
+}
+}
+
+@media screen and (max-width: 428px) {
+.footer-palavras {
+  margin-top: 4vh;
+}
+.contato-email {
+  margin-top: 2vh;
+}
+
+  }

@@ -1,0 +1,52 @@
+.topicos {
+  text-align: center;
+  padding: 1em;
+  
+  
+}
+.banner__texto {
+  color: var(--pretoo);
+  font-family: 'Inter', sans-serif;
+  
+}
+
+h3 {
+  color: var(--preto);
+  margin-top: 2vh;
+  text-transform: uppercase;
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+}
+
+.topicos__principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  border: 2px solid var();
+  border-radius: 6px;
+  padding: 8px 4px;
+  transition: 0.2s;  
+}
+
+.topicos__secundario {
+  margin: 2em 0.5em;
+  margin-bottom: 0vh;
+  border: 2px solid var();
+  border-radius: 6px;
+  padding: 8px 4px;
+  transition: 0.2s;
+  background-color:var(--roxo);
+
+}
+
+.topicos_link {
+  color: var(--preto);
+  padding: 0.5em;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none; 
+}

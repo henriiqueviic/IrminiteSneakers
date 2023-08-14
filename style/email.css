@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFF;
+
+}
+
+.contato {
+padding: 2em;
+}
+
+.contato-sac, email-span, whats-span {
+padding: 1;
+}
+

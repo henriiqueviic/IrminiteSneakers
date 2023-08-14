@@ -1,0 +1,84 @@
+#about {
+  display: flex;
+  justify-content: center; /* Centralizar os elementos horizontalmente */
+  margin-bottom: 2rem;
+
+}
+
+#about .wrapper {
+  display: flex;
+  align-items: center; /* Centralizar verticalmente os elementos dentro da wrapper */
+  flex-wrap: wrap; /* Permite que as colunas se adaptem quando a tela é menor */
+  justify-content: center;  /* Centralizar os elementos horizontalmente dentro da wrapper */
+}
+
+#about .col-a {
+  flex: 0 0 50%; /* Ajuste a largura conforme necessário */
+  max-width: 200px; /* Defina uma largura máxima para a imagem */
+}
+
+#about .col-b {
+  flex: 0 0 50%; /* Ajuste a largura conforme necessário */
+  }
+
+.imagem-logo {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remova o display:flex para evitar comportamento indesejado */
+  margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  margin-top: 4vh;
+}
+
+#about .col-b h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+}
+
+.about .col-b {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 2vh;
+}
+
+@media screen and (max-width: 428px) {
+    .imagem-logo {
+      max-width: 150px;
+      height: auto;
+      display: block; /* Remova o display:flex para evitar comportamento indesejado */
+      margin: 0 auto; /* Centralizar a imagem horizontalmente */
+      margin-top: 4vh;
+    }
+  
+    #about {
+      display: flex;
+      justify-content: center; /* Centralizar os elementos horizontalmente */
+      margin-bottom: 2rem;
+    }
+  
+    #about .wrapper {
+      display: flex;
+      align-items: center; /* Centralizar verticalmente os elementos dentro da wrapper */
+      flex-wrap: wrap; /* Permite que as colunas se adaptem quando a tela é menor */
+      justify-content: center;  /* Centralizar os elementos horizontalmente dentro da wrapper */
+      width: 100%; /* Adicione essa propriedade para ocupar toda a largura disponível */
+    }
+  
+    #about .col-a {
+      max-width: 100%; /* Ajuste a largura conforme necessário */
+    }
+  
+    #about .col-b {
+      flex: 0 0 50%; /* Ajuste a largura conforme necessário */
+    }
+  
+    .about .col-b {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2vh;
+    }
+  }
+
